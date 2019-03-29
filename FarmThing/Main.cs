@@ -6,10 +6,11 @@ using System.Threading.Tasks;
 
 namespace FarmThing
 {
-    class Program
-    {
+   public class Program
+   {
         static void Main(string[] args)
         {
+            new Animals().All_Animals();
         }
-    }
+   }
 }
